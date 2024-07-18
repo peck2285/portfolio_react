@@ -1,0 +1,140 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 01/06/2024 21:20:28
+*/
+/* 
+    .Contact{
+
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+        max-width: 90rem;
+    }
+ 
+
+ .Contact form{
+
+    max-width: 60rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1.5em;
+    border: 2px solid var(--main-color);
+    text-align: center;
+  
+ } 
+
+
+
+ .Contact form .inputBox{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: co/lumn;
+
+
+}
+
+.Contact form .inputBox .input{
+
+    width: 40%;
+}
+
+
+.Contact form .inputBox .input span{
+
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color:var(--light-color) ;
+
+}
+
+
+.Contact form .inputBox .input input,
+.Contact form .inputBox .input textarea{
+
+    background-color:#eee ;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size:1rem;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+.Contact form .inputBox .input input:focus,
+.Contact form .inputBox .input textarea:focus{
+
+    border: .1rem solid var(--green);
+
+}
+
+
+.Contact form form .inputBox .input textarea {
+
+    height: 20rem;
+    resize: none;
+
+}
+
+.Contact  form .btn{
+
+    margin-top: 2rem;
+    border: 3px solid white;
+    color: white;
+}
+
+
+.Contact  form .btn:hover{
+
+  letter-spacing: .5rem;
+  transition: .5s;
+}
+ */
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contact form{
+    padding: 1rem;
+    border-radius: .3rem;
+    box-shadow: .1rem .1rem .2rem .2rem var(--main-color);
+    /* border: .1rem solid #ccc; */
+}
+
+form div{
+    display: flex;
+    padding: .1rem;
+    margin-top: .5rem;
+    flex-direction: column;
+}
+form label {
+    align-self: start;
+}
+
+form input,
+form textarea{
+    padding: .5rem;
+    margin-top: .2rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    border-radius: .3rem;
+}
+
+
+form textarea{
+    height: 8rem;
+}
+.btn{
+    color: var(--main-color) !important;
+}

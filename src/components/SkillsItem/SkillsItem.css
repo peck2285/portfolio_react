@@ -1,0 +1,55 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 01/06/2024 21:20:28
+*/
+
+.SkillsItem {
+  padding: 2rem;
+  text-align: center;
+  border: var(--border);
+  cursor: pointer;
+   
+}
+
+
+.SkillsItem:hover{
+
+   background-color: #fff;
+    transition: 1s;
+
+}
+
+
+
+.SkillsItem:hover img{
+
+  scale: 120%;
+    transition: 1s;
+    margin-bottom: 1rem;
+
+}
+
+.skills .theskills .skill h3{
+    font-size: 3rem;
+    padding: 1.5rem 1rem ;
+}
+
+.SkillsItem p{
+
+   font-size: 2rem;
+    padding: .5rem 0;
+
+}
+
+
+.SkillsItem:hover>*{
+
+    color: var(--black);
+    scale: 110%;
+    transition: 1s;
+
+}
+
+

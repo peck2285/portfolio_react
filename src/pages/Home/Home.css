@@ -1,0 +1,30 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 01/06/2024 21:06:33
+*/
+
+.Home {
+  max-width: 100vw !important;
+}
+.gitubFixed {
+  position: fixed;
+  bottom: 10rem;
+  font-size: 3rem;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+.whtFixed{
+  position: fixed;
+  right: 10px;
+  z-index: 100;
+  width: 3rem;
+  bottom: 15rem;
+  cursor: pointer;
+}
+.tag{
+  text-decoration: none;
+  color: #fff;
+}

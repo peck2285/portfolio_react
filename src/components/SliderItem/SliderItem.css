@@ -1,0 +1,100 @@
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 04/06/2024 18:45:13
+*/
+
+/*
+  Authors : Mudey Formation
+  Website : https://mudey.fr/
+  App Name : E-commerce with React.Js
+  Created At : 01/06/2024 21:20:28
+*/
+
+.slide {
+  position: absolute;
+  inset: 0 0 0 0;
+  /* overflow: hidden; */
+  opacity: 0;
+  transition: 0.5s;
+}
+.slide img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Comprendre */
+.slide::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top right, #000 20%, transparent);
+}
+
+.slide .content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 500px;
+  max-width: 85%;
+  z-index: 100;
+  color: #fff;
+}
+
+.slide .content h2 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.slide .content h2 span {
+  color: var(--main-color);
+}
+
+.slide .content h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  margin: 2rem 0;
+}
+
+.slide .content p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 0;
+}
+
+.slide.active {
+  /* position: relative; */
+  opacity: 1;
+  z-index: 10;
+}
+/*      .slide.active  */
+
+@keyframes showCont {
+  to {
+    transform: translate(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slide.active .content h2,
+.slide.active .content h3,
+.slide.active .content p {
+  transform: translateY(5rem);
+  filter: blur(1rem);
+  opacity: 0;
+  animation: showCont 0.5s 0.7s ease-in-out 1 forwards;
+}
+.slide.active .content h3 {
+  animation-delay: 1s;
+}
+.slide.active .content p {
+  animation-duration: 1.3s;
+}
