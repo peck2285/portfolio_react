@@ -4,7 +4,7 @@ import { Slider } from "../models/Slider"
 
 export const sliders : Slider[] = [
     {
-        name : "Alex Gbagbo franklin Zadi",
+        name : "Alex Gbagbo Franklin Zadi",
         description : "developpeur web Junior FullStack",
         imgSrc : "assets/images/bcg1.jpg"
     },
@@ -79,21 +79,21 @@ export const portofolios : Portofolio[] =[
         title :"Template ecommerce",
         time : "2 semaine",
         previewUrl : "https://ecommerce-wo6y.onrender.com",
-        description :"Réalisation d'un template ecommerce  fais avec les languages suivant html CSS3 et JavaScript .",
+        description :"Réalisation d'un template E.commerce mettant en lumière des acticles féminins avec différents prix fais avec les languages HTML,CSS et JavaScript .",
         
     },
      {
         title :"Boulangerie responsive",
         previewUrl: "https://boulangerie-js.onrender.com",
         time : "2 semaine",
-        description :"Réalisation d'une Boulangerie responsive fais en html et css et javascript.",
+        description :"Réalisation d'une Boulangerie responsive faite en HTML CSS et JavaScript. Dans ce projet tout client peut voir les détails des produits et les commander en quantité voulu juste par un clique .Dans ce projet ce que je retiens c'est comment utilisé les fonctons et les appelé",
         
     },
      {
-        title :"Project boostrap",
+        title :"Projet boostrap",
         previewUrl: "https://projet-boostrap.onrender.com",
         time : "2 heure ",
-        description :"Réalisation de ce projet boostrap ",
+        description :"Réalisation d'un projet boostrap mettant en lumière la constrsurction .J'ai beaucoup appris dans ce projet et je suis aller plus vite "
         
     },
      
@@ -101,7 +101,7 @@ export const portofolios : Portofolio[] =[
         title :"jeux JavaScript",
         time : "1 jour",
         previewUrl: "https://javascript-quiz-o9dr.onrender.com",
-        description :"Réalisation d'un jeu en JavaScript  dans le quelle vous etes soumus a plusieurs questions pendants une période de 10s .",
+        description :"Réalisation d'un jeu en JavaScript  dans lequel vous etes soumis a plusieurs questions pendants une période de 10s . A la fin du jeu vous serrez totalisé ",
         
     },
    
@@ -109,7 +109,7 @@ export const portofolios : Portofolio[] =[
         title :"application de gestion des  films",
         previewUrl:"https://film-script.onrender.com",
         time : "2 jour",
-        description :"C'est une application qui permet de sélectionner des films de votre choix grace a une barre de recherche .",
+        description :"C'est une application qui permet de sélectionner des films de votre choix grace a une barre de recherche et filtrer  .",
        
     },
 
@@ -117,15 +117,15 @@ export const portofolios : Portofolio[] =[
         title :"Javascript filter",
         previewUrl:"https://javascript-filter.onrender.com",
         time : "1 jour",
-        description :"Une application constitué d'objet avec une barre de recherche pouvant les rechercher ces objets par leur nom ou leur catégorie",
+        description :"Une application constitué d'objet de vente  avec une barre de recherche pouvant les rechercher ces objets par leur nom ou leur catégorie",
        
     },
 
      {
-        title :"TTODOLIST JAVASCRPT",
+        title :"TODOLIST JAVASCRPT",
         previewUrl:"https://javascript-taches.onrender.com",
         time : "1 jour",
-        description :"Une application pouvantc crée des taches et les sauvegarder en local",
+        description :"Une application pouvant crée des taches et les sauvegarder en local",
        
     },
 
@@ -138,7 +138,7 @@ export const portofolios : Portofolio[] =[
     },
 
     {
-        title :"Gestion d'évènementavec php",
+        title :"Gestion d'évènement avec php",
         time : "3 semaine",
         previewUrl:"https://github.com/peck2285/GestionEvents.git",
         description :" Une application consiste à créer un système de gestion de évènement interactif et fonctionnel",

@@ -31,7 +31,7 @@ const Portofolio : FC<PortofolioProps> = () =>{
           
           <div className="title">
             
-         <h2>Portofolio </h2>
+         <h2>Portfolio </h2>
         
           </div>
 
