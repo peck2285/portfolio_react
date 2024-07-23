@@ -77,7 +77,7 @@ export const skills : Skill[] = [
 export const portofolios : Portofolio[] =[
     {
         title :"Template ecommerce",
-        time : "2 semaine",
+        time : "1 mois",
         previewUrl : "https://ecommerce-wo6y.onrender.com",
         description :"Réalisation d'un template E.commerce mettant en lumière des acticles féminins avec différents prix fais avec les languages HTML,CSS et JavaScript .",
         
@@ -86,14 +86,14 @@ export const portofolios : Portofolio[] =[
         title :"Boulangerie responsive",
         previewUrl: "https://boulangerie-js.onrender.com",
         time : "2 semaine",
-        description :"Réalisation d'une Boulangerie responsive faite en HTML CSS et JavaScript. Dans ce projet tout client peut voir les détails des produits et les commander en quantité voulu juste par un clique .Dans ce projet ce que je retiens c'est comment utilisé les fonctons et les appelé",
+        description :"Réalisation d'une Boulangerie responsive faite en HTML CSS et JavaScript. Avec ce projet tout client peut voir les détails des produits et les commander en quantité voulu juste par un clique .En outre il m'a permis de comprendre comment utiliser les fonctions et les appeler",
         
     },
      {
-        title :"Projet boostrap",
+        title :"Projet bootstrap",
         previewUrl: "https://projet-boostrap.onrender.com",
         time : "2 heure ",
-        description :"Réalisation d'un projet boostrap mettant en lumière la constrsurction .J'ai beaucoup appris dans ce projet et je suis aller plus vite "
+        description :"Réalisation d'un projet bootstrap adapté a une société de construction nommé BUILD.Ce projet m'a permis d'en connaitre d'avantage sur la responsivité "
         
     },
      
@@ -101,15 +101,15 @@ export const portofolios : Portofolio[] =[
         title :"jeux JavaScript",
         time : "1 jour",
         previewUrl: "https://javascript-quiz-o9dr.onrender.com",
-        description :"Réalisation d'un jeu en JavaScript  dans lequel vous etes soumis a plusieurs questions pendants une période de 10s . A la fin du jeu vous serrez totalisé ",
+        description :"Réalisation d'un jeu de QUESTION-REPONSE en JavaScript dans lequel le joueur est soumis a plusieurs questions sur un délai de 10s . A la fin le joueur est noté selon le nombre de bonnes réponses trouvées",
         
     },
    
     {
-        title :"application de gestion des  films",
+        title :"application de gestion des films",
         previewUrl:"https://film-script.onrender.com",
         time : "2 jour",
-        description :"C'est une application qui permet de sélectionner des films de votre choix grace a une barre de recherche et filtrer  .",
+        description :"Cette application permet a l'utilisateur de sélectionner des films de son choix juste en les recherchant dans la barre de recherche.",
        
     },
 
@@ -117,15 +117,23 @@ export const portofolios : Portofolio[] =[
         title :"Javascript filter",
         previewUrl:"https://javascript-filter.onrender.com",
         time : "1 jour",
-        description :"Une application constitué d'objet de vente  avec une barre de recherche pouvant les rechercher ces objets par leur nom ou leur catégorie",
+        description :"Il s'agit d'une application constituée de divers objets a vendre et qui dispose d'une barre de recherche permettant de ressortir ces objets en les recherchant avec un mot clé comme: le nom ou la catégorie",
        
     },
 
      {
-        title :"TODOLIST JAVASCRPT",
+        title :"TODOLIST JAVASCRIPT",
         previewUrl:"https://javascript-taches.onrender.com",
         time : "1 jour",
-        description :"Une application pouvant crée des taches et les sauvegarder en local",
+        description :"Ceci est une application pouvant créer des taches et les sauvegarder en local",
+       
+    },
+
+     {
+        title :"PORTFOLIO REACT JS",
+        previewUrl:"https://portfolio-react-5mq8.onrender.com",
+        time : "UNE SEMAINE",
+        description :"Réalisation de mon portfolio ",
        
     },
 
@@ -133,15 +141,15 @@ export const portofolios : Portofolio[] =[
         title :"Gestion de bibliothèque avec php",
         time : "3 semaine",
         previewUrl:"https://github.com/peck2285/biblioth-que_php.git",
-        description :" Une application consiste à créer un système de gestion de bibliothèque interactif et fonctionnel",
+        description :" Une application qui consiste à créer un système de gestion d'une bibliothèque avec une base de donnée ",
        
     },
 
     {
-        title :"Gestion d'évènement avec php",
+        title :"Gestion d'évènement en php",
         time : "3 semaine",
         previewUrl:"https://github.com/peck2285/GestionEvents.git",
-        description :" Une application consiste à créer un système de gestion de évènement interactif et fonctionnel",
+        description :" Avec cette application il s'agira de créer un système de gestion d'évènement interactif et cohérent",
        
     },
 
