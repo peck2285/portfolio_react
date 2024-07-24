@@ -24,9 +24,7 @@ const PortofolioItem: FC<PortofolioItemProps> = ({ portofolio }) => {
 
   return (
     <div className="PortofolioItem">
-      <a
-        href={portofolio.previewUrl}
-        target="_blank"
+      <a href={portofolio.previewUrl} target="_blank"
         rel="noopener noreferrer"
         className="project1"
       >

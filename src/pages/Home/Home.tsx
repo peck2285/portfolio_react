@@ -14,7 +14,7 @@ import Portofolio from "../../components/Portofolio/Portofolio";
 import Footer from "../../components/Footer/Footer";
 import Slider from "../../components/Slider/Slider";
 import Contact from "../../components/Contact/Contact";
-import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 interface HomeProps {}
 
@@ -40,14 +40,22 @@ const Home: FC<HomeProps> = () => {
 
         <Contact />
 
-        <a href="https://wa.me/qr/7FHMKQL3LMG2C1">
+        <a
+          href="https://wa.me/qr/7FHMKQL3LMG2C1"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img src="assets/images/Icon (1).png" className="whtFixed" alt="" />
         </a>
-        
-        <a href="https://github.com/peck2285" className="tag">
+
+        <a
+          href="https://github.com/peck2285"
+          className="tag"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <FaGithub className="gitubFixed" />
         </a>
-        
 
         <Footer />
       </div>
