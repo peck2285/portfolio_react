@@ -63,7 +63,7 @@ export const skills : Skill[] = [
     {
         name : "React js",
         imgUrl : "assets/images/react.svg",
-        status : "en cours"
+        status : "Terminé"
     },
     
     

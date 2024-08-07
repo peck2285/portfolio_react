@@ -9,38 +9,28 @@
 
  
    
- 
+.navbar-nav a{
+
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 
-.navbar {
-  color: white !important;
-  --bs-navbar-color : white !important;
-  --bs-navbar-brand-color : white !important ;
-  /* background-color: blue; */
-  height: 5rem;
-   border-bottom: var(--border);
+.navbar .navbar-brand{
+
    
-   
-}
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px; 
 
-.navbar-collapse{
-  flex-grow: 0 !important;
-}
-
-
-.navbarr .nav-item{
-
-    margin-left: 1rem;
 }
 
 
-.navbarr .nav-item a:hover{
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
 
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
-    padding-bottom: .5rem;
-}
-.Logo{
-  font-size: 3rem !important;
-  font-weight: bold;
+    color: #000;
+
 }

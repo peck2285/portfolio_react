@@ -19,46 +19,49 @@ const Header: FC<HeaderProps> = () => {
   }, []); // Added dependency array to avoid running effect on every render
 
   return (
-    
-    <div className="Header container">
-     
-     <nav className="navbar navbar-expand-lg ">
-    
-    <div className="container-fluid d-flex justify-content-between header-fluid ">
-    
-    <a className="navbar-brand Logo" href="#">Alex</a>
-    
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon" />
-    </button>
    
-   
-    <div className="navbarr collapse navbar-collapse" id="navbarSupportedContent">
-      
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        
-        <li className="nav-item">
-          <a className="nav-link" href="#About">About</a>
-        </li>
-         <li className="nav-item">
-          <a className="nav-link" href="#Skills">Skills</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#Portofolio">Portfolio</a>
-        </li>
-         <li className="nav-item">
-          <a className="nav-link" href="#Contact">Contact</a>
-        </li>
-        
-        
-      </ul>
-
-    </div>
-  </div>
-    </nav>  
-
-
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top h-15">
+      <div className="container">
+        <a className="navbar-brand" href="/">
+      Alex
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="#About">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Portofolio">
+                Portofolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 
