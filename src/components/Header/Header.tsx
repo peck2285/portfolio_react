@@ -20,12 +20,12 @@ const Header: FC<HeaderProps> = () => {
 
   return (
    
-    <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top h-15">
+    <nav className="navbar navbar-expand-lg fixed-top h-15">
       <div className="container">
         <a className="navbar-brand" href="/">
       Alex
         </a>
-        <button
+        <button    
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
